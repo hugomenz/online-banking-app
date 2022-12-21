@@ -1,0 +1,224 @@
+{
+  "account-list": [
+    {
+      "id": "1",
+      "iban": "ES91 2100 0418 4502 0005 1332",
+      "type": "1",
+      "name": "Nómina 1 - Nueva",
+      "balance": 1490,
+      "lastTransaction": "2019-12-09T21:30:00",
+      "alias": "Nómina 1 - Nueva"
+    },
+    {
+      "id": "2",
+      "iban": "ES79 2100 0813 6101 2345 6789",
+      "type": "3",
+      "name": "Normal Compartida Generales",
+      "balance": 2480,
+      "lastTransaction": "2019-11-21T14:07:38",
+      "alias": "Normal Compartida Generales"
+    },
+    {
+      "id": "3",
+      "iban": "ES66 2100 0418 4012 3456 7891",
+      "type": "2",
+      "name": "Ahorro 4",
+      "balance": 8500,
+      "lastTransaction": "2019-11-15T08:29:04",
+      "alias": "Ahorro 4"
+    },
+    {
+      "iban": "PL34 0058 0155 8417 2086 7080 1089",
+      "name": "Nómina 2",
+      "type": "1",
+      "balance": 0,
+      "lastTransaction": "2022-09-06T19:37:24.439Z",
+      "id": "dD8cotq",
+      "alias": "Nómina 2"
+    },
+    {
+      "iban": "CR87 6040 5012 2600 7001 4",
+      "name": "Cuenta de Mi Mujer",
+      "type": "2",
+      "balance": 1500,
+      "lastTransaction": "2022-09-07T05:05:28.034Z",
+      "id": "yF3a0lf",
+      "alias": "Cuenta de Mi Mujer"
+    }
+  ],
+  "movements": [
+    {
+      "id": "1",
+      "description": "Nómina noviembre",
+      "amount": 900,
+      "balance": 1490,
+      "transaction": "2019-12-09T21:30:00",
+      "realTransaction": "2019-12-09T21:30:00",
+      "accountId": "1"
+    },
+    {
+      "id": "2",
+      "description": "Alquiler noviembre",
+      "amount": -400,
+      "balance": 590,
+      "transaction": "2019-12-07T11:30:00",
+      "realTransaction": "2019-12-08T20:00:10",
+      "accountId": "1"
+    },
+    {
+      "id": "3",
+      "description": "Gastos móvil",
+      "amount": -24,
+      "balance": 990,
+      "transaction": "2019-12-01T07:01:00",
+      "realTransaction": "2019-12-02T12:00:10",
+      "accountId": "1"
+    },
+    {
+      "id": "4",
+      "description": "Luz diciembre",
+      "amount": -110,
+      "balance": 2480,
+      "transaction": "2020-01-02T10:00:00",
+      "realTransaction": "2020-01-03T10:00:00",
+      "accountId": "2"
+    },
+    {
+      "id": "5",
+      "description": "Agua diciembre",
+      "amount": -20,
+      "balance": 2590,
+      "transaction": "2020-01-01T09:00:00",
+      "realTransaction": "2020-01-01T09:00:00",
+      "accountId": "2"
+    },
+    {
+      "id": "6",
+      "description": "Internet diciembre",
+      "amount": -35,
+      "balance": 2610,
+      "transaction": "2020-01-01T08:00:00",
+      "realTransaction": "2020-01-01T08:00:00",
+      "accountId": "2"
+    },
+    {
+      "id": "7",
+      "description": "Luz noviembre",
+      "amount": -89,
+      "balance": 2645,
+      "transaction": "2019-12-01T07:01:00",
+      "realTransaction": "2019-12-02T12:00:10",
+      "accountId": "2"
+    },
+    {
+      "id": "8",
+      "description": "Ahorro diciembre",
+      "amount": 1500,
+      "balance": 8500,
+      "transaction": "2019-12-29T13:30:10",
+      "realTransaction": "2019-12-30T13:30:10",
+      "accountId": "3"
+    },
+    {
+      "id": "9",
+      "description": "Ahorro noviembre",
+      "amount": 2200,
+      "balance": 6000,
+      "transaction": "2019-11-29T11:30:10",
+      "realTransaction": "2019-11-29T11:30:10",
+      "accountId": "3"
+    }
+  ],
+  "transfer": [
+    {
+      "idAccount": "3",
+      "nameAccount": "Ahorro 4",
+      "iban": "ES2321004305712200074047",
+      "name": "LemonCode",
+      "amount": "300",
+      "concept": "Matricula Hugo Martin",
+      "notes": "primera cuenta",
+      "day": "",
+      "month": "",
+      "year": "",
+      "transferDate": "8/9/2022",
+      "email": "lemoncode@email.com",
+      "id": 1
+    },
+    {
+      "idAccount": "3",
+      "nameAccount": "Ahorro 4",
+      "iban": "ES6401280645580100054312",
+      "name": "LemonCode",
+      "amount": "300",
+      "concept": "Matricula Hugo Mendez",
+      "notes": "Segunda cuota",
+      "day": "",
+      "month": "",
+      "year": "",
+      "transferDate": "8/9/2022",
+      "email": "sd@df.com",
+      "id": 2
+    },
+    {
+      "idAccount": "1",
+      "nameAccount": "Nómina 1 - Nueva",
+      "iban": "ES8221008984190200001507",
+      "name": "LemonCode",
+      "amount": "500",
+      "concept": "Matricula Martin",
+      "notes": "Tercera cuota",
+      "day": "",
+      "month": "",
+      "year": "",
+      "transferDate": "8/9/2022",
+      "email": "lemon@mail.com",
+      "id": 3
+    },
+    {
+      "idAccount": "yF3a0lf",
+      "nameAccount": "Cuenta de Mi Mujer",
+      "iban": "ES2021008984170200003303",
+      "name": "Lemon",
+      "amount": "200",
+      "concept": "Matricula",
+      "notes": "Cuarta cuota desed la cuenta de mi mujer",
+      "day": "",
+      "month": "",
+      "year": "",
+      "transferDate": "8/9/2022",
+      "email": "lemon@gl.com",
+      "id": 4
+    },
+    {
+      "idAccount": "3",
+      "nameAccount": "Ahorro 4",
+      "iban": "ES7921004305702200072603",
+      "name": "LemonCode",
+      "amount": "500",
+      "concept": "Matricula",
+      "notes": "Quinta cuota desde Ahorro 4",
+      "day": "",
+      "month": "",
+      "year": "",
+      "transferDate": "8/9/2022",
+      "email": "lemon@mail.com",
+      "id": 5
+    },
+    {
+      "idAccount": "2",
+      "nameAccount": "Normal Compartida Generales",
+      "iban": "ES5121008984180200002405",
+      "name": "LemonCode",
+      "amount": "600",
+      "concept": "Matricula",
+      "notes": "Esta vez dia, mes y año tambien se actualiza",
+      "day": "8",
+      "month": "9",
+      "year": "2022",
+      "transferDate": "8/9/2022",
+      "email": "lemon@mail.com",
+      "id": 6
+    }
+  ]
+}
